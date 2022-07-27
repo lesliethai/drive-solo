@@ -287,6 +287,34 @@ header {
   height: 100vh;
 }
 
+header h2,
+header a {
+  color: #fff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header li {
+  margin-right: 20px;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -295,4 +323,17 @@ html {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.caps,
+.heading:not(.noCap) {
+  text-transform: uppercase;
 }

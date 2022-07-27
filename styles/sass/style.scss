@@ -9,9 +9,18 @@
 html {
     font-size: 62.5%;
 }
-
 .wrapper {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.caps,
+.heading:not(.noCap) {
+    text-transform: uppercase;
 }
