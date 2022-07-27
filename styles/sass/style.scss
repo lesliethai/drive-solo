@@ -1,2 +1,17 @@
 @import 'setup';
+@import 'utils';
 @import 'typography';
+@import 'nav';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
