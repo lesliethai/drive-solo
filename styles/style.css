@@ -282,7 +282,8 @@ footer {
   text-align: center;
 }
 
-.navLeft p {
+.navLeft p,
+.heading {
   font-family: "Kanit", sans-serif;
   font-weight: 700;
   line-height: 42px;
@@ -369,6 +370,30 @@ h2 {
 
 .iconNav li {
   margin-top: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.news h2 {
+  margin: 100px;
+  text-align: center;
+}
+
+.news ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news li {
+  width: 32%;
+  margin-bottom: 100px;
 }
 
 html {

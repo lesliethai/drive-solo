@@ -1,0 +1,16 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+.news h2 {
+    margin: 100px; 
+    text-align: center; 
+}
+.news ul {
+    display: flex;
+    justify-content: space-between; 
+}
+.news li {
+    width: 32%;
+    margin-bottom: 100px; 
+}
