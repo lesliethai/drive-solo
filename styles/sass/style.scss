@@ -9,13 +9,19 @@
 html {
     font-size: 62.5%;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
 .wrapper {
     max-width: 1400px;
     width: 85%;
     margin: 0 auto;
 }
 a {
+    color: #fff;
     text-decoration: none;
+    text-transform: uppercase; 
 }
 ul li {
     list-style: none;

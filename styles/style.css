@@ -244,7 +244,7 @@ h1 {
 }
 
 .heading,
-button {
+.button {
   font-family: "Kanit", sans-serif;
 }
 
@@ -254,9 +254,10 @@ button {
   line-height: 42px;
 }
 
-button {
+.button {
   font-size: 2rem;
   font-weight: 700;
+  font-style: italic;
   line-height: 29px;
   text-align: center;
 }
@@ -268,10 +269,10 @@ nav {
 }
 
 p {
-  font-family: "Lato", sans-serif;
-  font-size: 3.1rem;
-  line-height: 31.6px;
-  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 29px;
   margin: 0;
   padding: 0;
 }
@@ -296,12 +297,6 @@ header {
   height: 100vh;
   position: relative;
 }
-
-header h2,
-header a {
-  color: #fff;
-}
-
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,8 +309,7 @@ header nav {
           align-items: center;
   padding-top: 25px;
 }
-
-header ul {
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,9 +318,12 @@ header ul {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-
-header li {
+header nav ul li {
   margin-right: 30px;
+}
+
+header h2 {
+  color: #fff;
 }
 
 h1,
@@ -343,7 +340,6 @@ h2 {
   position: absolute;
   bottom: 175px;
 }
-
 .frontHeaders h2 {
   margin-top: 10px;
 }
@@ -354,7 +350,6 @@ h2 {
   bottom: 50px;
   right: 100px;
 }
-
 .iconNav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,18 +362,12 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.iconNav li {
+.iconNav ul li {
   margin-top: 15px;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
-
 .news h2 {
-  margin: 100px;
+  margin: 100px 0;
   text-align: center;
 }
 
@@ -390,14 +379,60 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.news li {
+.news ul li {
   width: 32%;
   margin-bottom: 100px;
 }
 
+.highlight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.highlight .wrapper {
+  padding: 100px;
+}
+
+.highlightImg {
+  width: 25%;
+}
+
+.highlightContent {
+  width: 73%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.button {
+  background-color: rgb(186, 6, 33);
+  padding: 10px 25px;
+}
+
+.heading {
+  margin-bottom: 15px;
+}
+
 html {
   font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .wrapper {
@@ -407,7 +442,9 @@ html {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 ul li {

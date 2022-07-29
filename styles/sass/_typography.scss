@@ -14,7 +14,7 @@ h1 {
     letter-spacing: 1px;
 }
 .heading,
-button {
+.button {
     font-family: 'Kanit', sans-serif;
 }
 .heading {
@@ -22,9 +22,10 @@ button {
     font-weight: 700;
     line-height: 42px;
 }
-button {
+.button { 
     font-size: 2rem;
     font-weight: 700;
+    font-style: italic;  
     line-height: 29px;
     text-align: center;
 }
@@ -33,11 +34,11 @@ nav {
     font-weight: 600;
     line-height: 29px;
 }
-p {
-    font-family: 'Lato', sans-serif;
-    font-size: 3.1rem;
-    line-height: 31.6px;
-    letter-spacing: 0.3px;
+p { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300; 
+    line-height: 29px; 
     margin: 0;
     padding: 0;
 }
@@ -53,3 +54,4 @@ footer{
     line-height: 42px;
     font-style: italic;
 }
+ 
