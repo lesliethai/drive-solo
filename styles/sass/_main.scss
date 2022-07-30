@@ -12,12 +12,10 @@
         }
 }
 //    highlight section style
-.highlight {
+.highlight .wrapper {
     display: flex;
     justify-content: space-between;
-        .wrapper {
-            padding: 100px;
-        }
+    margin-bottom: 100px;
 }
 .highlightImg {
     width: 25%;
@@ -32,7 +30,51 @@
 .button {
     background-color: $scarlet; 
     padding: 10px 25px;
+    display: inline-block; 
+    margin-top: 20px; 
 }
 .heading {
     margin-bottom: 15px; 
+}
+// new models section
+.halfPage {
+    display: flex;
+    align-items: center; 
+}
+.halfLeft,
+.halfRight {
+    width: 50%;  
+}
+.newModels .halfContent {
+    padding-right: 50px; 
+}
+.driveInStyle .halfContent {
+    padding-left: 50px; 
+}
+//  shop brand/jobs/events section
+.endNav {
+    background: url("../assets/oscar-aguilar-327500-unsplash@2x.png") center;
+    background-size: contain;   
+    padding: 100px 0; 
+        ul {
+            display: flex; 
+            justify-content: space-evenly; 
+            align-items: center;
+                a {
+                    display: flex; 
+                    flex-direction: column;
+                    justify-content: center; 
+                    align-items: center; 
+                }
+                h3 {
+                    font-size: 2rem; 
+                    color: #fff; 
+                    margin: 0; 
+                }
+        }
+}
+
+// fs
+.fa-red {
+    color: $scarlet;
 }

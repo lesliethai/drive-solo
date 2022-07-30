@@ -332,10 +332,6 @@ h2 {
   padding: 0;
 }
 
-.solo {
-  display: block;
-}
-
 .frontHeaders {
   position: absolute;
   bottom: 175px;
@@ -384,16 +380,14 @@ h2 {
   margin-bottom: 100px;
 }
 
-.highlight {
+.highlight .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-.highlight .wrapper {
-  padding: 100px;
+  margin-bottom: 100px;
 }
 
 .highlightImg {
@@ -420,10 +414,75 @@ h2 {
 .button {
   background-color: rgb(186, 6, 33);
   padding: 10px 25px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .heading {
   margin-bottom: 15px;
+}
+
+.halfPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.halfLeft,
+.halfRight {
+  width: 50%;
+}
+
+.newModels .halfContent {
+  padding-right: 50px;
+}
+
+.driveInStyle .halfContent {
+  padding-left: 50px;
+}
+
+.endNav {
+  background: url("../assets/oscar-aguilar-327500-unsplash@2x.png") center;
+  background-size: contain;
+  padding: 100px 0;
+}
+.endNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.endNav ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.endNav ul h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.fa-red {
+  color: rgb(186, 6, 33);
 }
 
 html {
@@ -432,6 +491,10 @@ html {
 
 img {
   max-width: 100%;
+  display: block;
+}
+
+span {
   display: block;
 }
 
