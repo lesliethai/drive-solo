@@ -132,26 +132,32 @@
         </div>
     </main>
 
-    <footer>
-        <div class="stayUpdated wrapper">
-            <h4 class="heading">Stay Updated</h4>
-            <p>Subscribe to our newsletter to stay updated.</p>
-            <!-- form enter email & subscribe button-->
-        </div>
-        <div class="contact wrapper">
-            <h4 class="heading">Contact</h4>
-            <p>info@email.com 123 - 456 - 7890</p>
-            <p>123 some road, Toronto, ON</p>
-            <p>A5A 5A5, Canada</p>
-
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+    <footer class="stayUpdated">
+        <div class="wrapper">
+            <div class="updatedLeft">
+                <h4 class="heading">Stay Updated</h4>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <form action="#" method="POST" class="emailForm" name="emailForm">
+                    <label for="email" class="sr-only">Enter your email:</label>
+                    <input type="text" id="email" name="email" placeholder="email address"><button type="submit" class="heading">Subscribe</button>
+                </form>
+            </div>
+            <div class="updatedRight">
+                <h4 class="heading">Contact</h4>
+                <p>info@email.com 123 - 456 - 7890</p>
+                <p>123 some road, Toronto, ON</p>
+                <p>A5A 5A5, Canada</p>
+            </div>
+            <div class="updatedNav">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="heading">Home</a></li>
+                        <li><a href="#" class="heading">About</a></li>
+                        <li><a href="#" class="heading">Blog</a></li>
+                        <li><a href="#" class="heading">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </footer>
 </body>
