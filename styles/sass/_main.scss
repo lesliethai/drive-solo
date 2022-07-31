@@ -6,6 +6,7 @@
 .news ul {
     display: flex;
     justify-content: space-between; 
+    padding: 0;
         li {
             width: 32%;
             margin-bottom: 100px;
@@ -36,21 +37,22 @@
 .heading {
     margin-bottom: 15px; 
 }
-// new models section
-.halfPage {
+// models section
+.newModels,
+.nightModels {
     display: flex;
-    align-items: center; 
 }
-.halfLeft,
-.halfRight {
-    width: 50%;  
+.newModels div,
+.nightModels div { 
+    width: 50%;
 }
-.newModels .halfContent {
-    padding-right: 50px; 
-}
-.driveInStyle .halfContent {
-    padding-left: 50px; 
-}
+.newModelsContent,
+.nightModelsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} 
 //  shop brand/jobs/events section
 .endNav {
     background: url("../assets/oscar-aguilar-327500-unsplash@2x.png") center;
@@ -76,8 +78,8 @@
 // stay updated footer section
 .stayUpdated {
     background: $wineRed; 
-    padding: 100px 0; 
-        .wrapper {
+    padding-top: 100px;  
+        .wrapper { 
             display: flex; 
             justify-content: space-between;
             text-align: left; 
@@ -116,6 +118,15 @@ form {
         a {
             font-weight: bold;
         }   
+}
+footer {
+    display: relative; 
+}
+.copyright {
+    color: #fff;
+    background-color: #000; 
+    margin-top: 50px; 
+    padding: 10px;
 }
 // fs
 .fa-red {

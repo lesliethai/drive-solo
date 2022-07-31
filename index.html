@@ -32,7 +32,7 @@
             <div class="frontHeaders">
                 <h1>Drive <span>Solo</span></h1>
                 <h2 class="heading noCap">curated finest selection</h2>
-            </div>
+            </div><!-- END .frontHeaders-->
             <div class="iconNav">
                 <ul>
                     <li>
@@ -48,21 +48,21 @@
                         <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </header><!-- header end -->
+            </div><!-- END .iconNav-->
+        </div> <!--END .wrapper-->
+    </header><!-- END header -->
 
     <main>
-        <div class="news wrapper">
+        <section class="news wrapper">
             <h2 class="heading">News Articles</h2>
             <ul>
                 <li><img src="./assets/image-2_2@2x.png" alt="End side view of a red car"></li>
                 <li><img src="./assets/image-3@2x.png" alt="Front side view of a red car"></li>
                 <li><img src="./assets/image-4@2x.png" alt="Left tail light of red car"></li>
             </ul>
-        </div>
+        </section><!--END .news section-->
 
-        <div class="highlight">
+        <section class="highlight">
             <div class="wrapper">
                 <div class="highlightImg">
                     <img src="./assets/image-6@2x.png" alt="Front view of a gray Mercedes with a yellow stripe on the hood">
@@ -79,34 +79,43 @@
                             quo? Nihil facilis et iure facere qui exercitationem adipisci a, omnis sapiente dolorem sequi sit.</p>
                     </div> <!-- END .highlightTop-->
                     <a href="#" class="button">Read More</a>
+                </div><!--END .hightlightContent-->
+            </div><!--END .wrapper-->
+        </section><!--END .highlight section-->
+
+        <section class="models">
+            <section class="newModels">
+                <div class="newModelsContent">
+                    <div class="wrapper">
+                        <h2 class="heading">New Models to <span>Look Into It</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint soluta repellendus totam adipisci
+                            aliquam eveniet sunt temporibus labore dolor sequi. Maxime possimus nemo error optio ea dolores, ab
+                            perspiciatis nisi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui odit, aut
+                            perferendis voluptatibus deserunt numquam.</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
                 </div>
-            </div>
-        </div>
+                <div class="imgContainer">
+                    <img src="./assets/image-2@2x.png" alt="White car with blue stripes along the hood." class="full-width">
+                </div>
+            </section><!--END .newModels section-->
+            <section class="nightModels">
+                <div class="imgContainer">
+                    <img src="./assets/image-2-copy@2x.png" alt="A white luxury car with its lights lit in a dark room.">
+                </div>
+                <div class="nightModelsContent">
+                    <div class="wrapper">
+                        <h2 class="heading">Drive in the style <span>in the night</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus sequi officiis ad dolorem
+                            laborum, illumipsam quaerat quibusdam obcaecati natus repudiandae rerum facilis minus illo
+                            cupiditate accusamus non suscipit!Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </div>
+            </section><!--END .nightModels section-->
+        </section><!--END .models section-->
 
-        <div class="newModels wrapper halfPage">
-            <div class="halfLeft halfContent">
-                <h2 class="heading">New Models to <span>Look Into It</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint soluta repellendus totam adipisci aliquam eveniet sunt temporibus labore dolor sequi. Maxime possimus nemo error optio ea dolores, ab perspiciatis nisi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui odit, aut perferendis voluptatibus deserunt numquam.</p>
-                <a href="#" class="button">Read More</a>
-            </div>
-            <div class="halfRight">
-                <img src="./assets/image-2@2x.png" alt="White car with blue stripes along the hood.">
-            </div>
-        </div>
-
-        <div class="driveInStyle wrapper halfPage">
-            <div class="halfLeft">
-                <img src="./assets/image-2-copy@2x.png" alt="A white luxury car with its lights lit in a dark room.">
-            </div>
-            <div class="halfRight halfContent">
-                <h2 class="heading">Drive in the style <span>in the night</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatibus sequi officiis ad dolorem laborum, illum ipsam quaerat quibusdam obcaecati natus repudiandae rerum facilis minus illo cupiditate accusamus non suscipit! Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="button">Read More</a>
-            </div>
-
-        </div>
-
-        <div class="endNav">
+        <section class="endNav">
             <div class="wrapper">
                 <ul>
                     <li>
@@ -128,9 +137,9 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </main>
+            </div><!--END .wrapper-->
+        </section><!--END .endNav section-->
+    </main><!--END main-->
 
     <footer class="stayUpdated">
         <div class="wrapper">
@@ -139,15 +148,15 @@
                 <p>Subscribe to our newsletter to stay updated.</p>
                 <form action="#" method="POST" class="emailForm" name="emailForm">
                     <label for="email" class="sr-only">Enter your email:</label>
-                    <input type="text" id="email" name="email" placeholder="email address"><button type="submit" class="heading">Subscribe</button>
+                    <input type="text" id="email" name="email" placeholder="email address"><button type="submit" class="heading subscribe">Subscribe</button>
                 </form>
-            </div>
+            </div><!--END .updatedLeft section-->
             <div class="updatedRight">
                 <h4 class="heading">Contact</h4>
                 <p>info@email.com 123 - 456 - 7890</p>
                 <p>123 some road, Toronto, ON</p>
                 <p>A5A 5A5, Canada</p>
-            </div>
+            </div><!--END .updatedRight section-->
             <div class="updatedNav">
                 <nav>
                     <ul>
@@ -157,8 +166,11 @@
                         <li><a href="#" class="heading">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
-    </footer>
+            </div><!--END .updatedNav section-->
+        </div><!--END .wrapper-->
+        <div class="copyright"> 
+            <p>Copyright © 2019 HackerYou</p>
+        </div><!--END .copyright div-->
+    </footer><!--END footer-->
 </body>
 </html>

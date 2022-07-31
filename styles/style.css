@@ -281,8 +281,11 @@ footer {
 .heading {
   font-family: "Kanit", sans-serif;
   font-weight: 700;
-  line-height: 42px;
   font-style: italic;
+}
+
+.subscribe {
+  line-height: 42px;
 }
 
 header {
@@ -368,6 +371,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0;
 }
 .news ul li {
   width: 32%;
@@ -416,26 +420,33 @@ h2 {
   margin-bottom: 15px;
 }
 
-.halfPage {
+.newModels,
+.nightModels {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.halfLeft,
-.halfRight {
+.newModels div,
+.nightModels div {
   width: 50%;
 }
 
-.newModels .halfContent {
-  padding-right: 50px;
-}
-
-.driveInStyle .halfContent {
-  padding-left: 50px;
+.newModelsContent,
+.nightModelsContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .endNav {
@@ -477,7 +488,7 @@ h2 {
 
 .stayUpdated {
   background: rgb(108, 9, 24);
-  padding: 100px 0;
+  padding-top: 100px;
 }
 .stayUpdated .wrapper {
   display: -webkit-box;
@@ -526,6 +537,17 @@ form button {
 }
 .updatedNav a {
   font-weight: bold;
+}
+
+footer {
+  display: relative;
+}
+
+.copyright {
+  color: #fff;
+  background-color: #000;
+  margin-top: 50px;
+  padding: 10px;
 }
 
 .fa-red {
