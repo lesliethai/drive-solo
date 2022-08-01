@@ -46,3 +46,42 @@ h2 {
                 }
         }
 }
+.hamburgerMenu {
+    display: none;
+}
+.fa-bars {
+    color: white;
+}
+.sliding-menu {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background: #000; 
+    width: 300px; 
+    position: fixed; 
+    top: 0; 
+    right: -999999px;  
+    margin: 0; 
+    padding: 0;
+    z-index: 999;
+        li {
+            width: 100%;  
+                a {
+                    display: inline-block;
+                    padding: 20px;
+                    width: 100%; 
+                    border: 1px solid #fff;
+                        &:hover,    
+                        &:focus {
+                            background: #fff;
+                            color: #000; 
+                        }
+                }
+        }
+} 
+input[type="checkbox"] {
+    appearance: none;
+        &:checked+.sliding-menu {
+            right: 0;
+        }
+}
