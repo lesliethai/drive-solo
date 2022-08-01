@@ -52,11 +52,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 0 7%;    
 } 
 //  shop brand/jobs/events section
 .endNav {
-    background: url("../assets/oscar-aguilar-327500-unsplash@2x.png") center;
-    background-size: contain;   
+    background: url("../assets/oscar-aguilar-327500-unsplash@2x.png") center no-repeat; 
+    background-size: auto 500px; 
     padding: 100px 0; 
         ul {
             display: flex; 

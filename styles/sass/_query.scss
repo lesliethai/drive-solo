@@ -1,0 +1,125 @@
+@media (max-width: 1100px) { 
+    p {
+        font-size: 1.8rem; 
+    }
+    .news h2 {
+        margin: 50px 0; 
+            li {
+                margin-bottom: 50px;
+            }
+    } 
+    .highlight .wrapper {
+        margin-bottom: 50px; 
+            .highlightImg {
+                width: 40%;
+            }
+            .highlightContent {
+                width: 58%;
+            }
+    }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 6rem; 
+        line-height: 70px; 
+    }
+    .highlight .wrapper {
+        flex-direction: column;
+        align-items: center;  
+            .highlightContent {
+                width: 100%;
+                align-items: center; 
+                    h2 {
+                        text-align: center; 
+                    }
+            }
+            .highlightImg {
+                width: 100%; 
+            }
+    }
+    .newModels {
+        flex-direction: column-reverse; 
+    }
+    .nightModels {
+        flex-direction: column; 
+    }
+    .newModels div,
+    .nightModels div {
+        width: 100%;
+    }
+    .newModelsContent,
+    .nightModelsContent {
+        align-items: center; 
+            h2 {
+                text-align: center; 
+            }
+            .button {
+                margin-bottom: 50px; 
+            }
+    }
+    .endNav {
+        padding: 50px 0; 
+            ul {
+                flex-direction: column; 
+                    li:not(:first-child) {
+                        margin-top: 40px;
+                    }
+            }
+    }
+    .stayUpdated {
+        padding-top: 50px; 
+            .wrapper {
+                flex-direction: column; 
+                align-items: center;  
+                    h4 {
+                        text-align: center;
+                        font-size: 3rem; 
+                        letter-spacing: 4px; 
+                    }
+                    .updatedLeft p {
+                        text-align: center;
+                        margin-top: 10px; 
+                    }
+                    .updatedLeft,
+                    .contactAndNav {
+                        width: 100%; 
+                    }
+                    .updatedRight h4 {  
+                        text-align: left; 
+                        margin: 10px 0;  
+                    }
+            }
+    }
+    form {
+        margin-top: 20px; 
+            input,
+            button {
+                width: 100%; 
+            } 
+            input {
+                text-align: center; 
+            }
+            button {
+                margin-top: 10px; 
+            }
+    }
+}
+@media (max-width: 550px) {
+    .pcNav,  
+    .iconNav {
+        display: none; 
+    } 
+    .hamburgerMenu {
+        display: block; 
+    } 
+    .news ul li {
+        width: 49%;
+            &:last-child {
+                display: none;
+            }
+    }  
+    .highlightImg {
+        width: 100%;
+    }
+}

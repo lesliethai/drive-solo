@@ -1,30 +1,30 @@
 header {
-    background: url('../assets/image-1@2x.png');
+    background: url('../assets/image-1@2x.png') center;
     background-size: cover; 
+    background-repeat: no-repeat; 
     height: 100vh; 
     position: relative;
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 25px;
-                ul {
-                    display: flex;
-                    flex-direction: row;
-                        li {
-                            margin-right: 30px;
-                        }
-                }
-        }
-}
-header h2 {
-    color: #fff; 
-}
+} 
 h1, 
 h2 {
     margin: 0;
     padding: 0;
+    color: #fff;
 }
+.pcNav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 25px;
+        ul { 
+            display: flex;
+            flex-direction: row;
+                li {
+                    margin-right: 30px; 
+                }
+        }
+}
+
 .frontHeaders {
     position: absolute;
     bottom: 175px;
@@ -47,7 +47,8 @@ h2 {
         }
 }
 .hamburgerMenu {
-    display: none;
+    display: none; 
+    margin-left: auto; 
 }
 .fa-bars {
     color: white;
@@ -60,7 +61,7 @@ h2 {
     width: 300px; 
     position: fixed; 
     top: 0; 
-    right: -999999px;  
+    left: -999999px;  
     margin: 0; 
     padding: 0;
     z-index: 999;
@@ -82,6 +83,6 @@ h2 {
 input[type="checkbox"] {
     appearance: none;
         &:checked+.sliding-menu {
-            right: 0;
+            left: 0;
         }
 }
