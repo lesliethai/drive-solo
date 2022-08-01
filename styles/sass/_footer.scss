@@ -1,0 +1,65 @@
+// stay updated footer section
+.stayUpdated {
+    background: $wineRed;
+    padding-top: 100px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        color: #fff;
+
+        h4 {
+            margin: 0;
+        }
+    }
+}
+
+.updatedLeft {
+    width: 60%;
+}
+
+.updatedRight {
+    width: 30%;
+}
+
+.updatedNav {
+    width: 10%;
+}
+
+form {
+    margin-top: 10px;
+
+    input {
+        width: 60%;
+        padding: 10px 0;
+        padding-left: 20px;
+        border: none;
+    }
+
+    button {
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 0px 30px;
+    }
+}
+
+.updatedNav {
+    text-align: right;
+
+    a {
+        font-weight: bold;
+    }
+}
+
+footer {
+    display: relative;
+}
+
+.copyright {
+    color: #fff;
+    background-color: #000;
+    margin-top: 50px;
+    padding: 10px;
+}
