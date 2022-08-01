@@ -26,7 +26,6 @@ h2 {
                 }
         }
 }
-
 .frontHeaders {
     position: absolute;
     bottom: 175px;
@@ -54,6 +53,9 @@ h2 {
 }
 .fa-bars {
     color: white;
+    position: absolute;
+    right: 20px; 
+    top: 20px; 
 }
 .sliding-menu {
     display: flex; 
