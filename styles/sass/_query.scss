@@ -20,6 +20,11 @@
 }
 
 @media (max-width: 1000px) {
+    main {
+            h2 {
+                margin-top: 20px;
+            }
+        } 
     h1 {
         font-size: 6rem; 
         line-height: 70px; 

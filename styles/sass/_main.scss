@@ -80,3 +80,12 @@
 .fa-red {
     color: $scarlet;
 }
+a:hover, a:focus {
+    color: $wineRed; 
+    transition: 300ms;
+}
+.button:hover, .button:focus {
+    color: $scarlet;
+    background-color: #fff; 
+    border: 1px solid #000; 
+}
