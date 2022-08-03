@@ -426,6 +426,7 @@ input[type=checkbox]:checked + .sliding-menu {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0;
   padding: 0;
 }
 .news ul li {
@@ -502,7 +503,10 @@ input[type=checkbox]:checked + .sliding-menu {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 0 7%;
+}
+
+.nightModelsContent {
+  padding-left: 50px;
 }
 
 .endNav {
@@ -657,8 +661,15 @@ footer a:focus, footer a:hover {
   .highlight .wrapper .highlightContent {
     width: 58%;
   }
+  .highlightImg img {
+    display: block;
+    margin: 0 auto;
+  }
+  .nightModelsContent {
+    padding-left: 10px;
+  }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   main h2 {
     margin-top: 20px;
   }
@@ -716,6 +727,9 @@ footer a:focus, footer a:hover {
   .newModelsContent .button,
 .nightModelsContent .button {
     margin-bottom: 50px;
+  }
+  .nightModelsContent {
+    padding: 0;
   }
   .endNav {
     padding: 50px 0;

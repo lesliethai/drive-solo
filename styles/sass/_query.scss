@@ -17,9 +17,16 @@
                 width: 58%;
             }
     }
+    .highlightImg img {
+        display: block; 
+        margin: 0 auto; 
+    }
+    .nightModelsContent {
+        padding-left: 10px;
+    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     main {
             h2 {
                 margin-top: 20px;
@@ -62,6 +69,9 @@
             .button {
                 margin-bottom: 50px; 
             }
+    }
+    .nightModelsContent {
+        padding: 0;
     }
     .endNav {
         padding: 50px 0; 
